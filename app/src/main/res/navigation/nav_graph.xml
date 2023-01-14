@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/CurrencyPairsFragment"
-        android:name="com.shay.currencypairs.CurrencyPairsFragment"
+        android:name="com.shay.currencypairs.ui.CurrencyPairsFragment"
         android:label="@string/currency_pairs_fragment_label"
         tools:layout="@layout/fragment_currency_pairs" />
 

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Currency Pairs</string>
+    <string name="action_settings">Settings</string>
+    <string name="currency_pairs_fragment_label">Currency Pairs Fragment</string>
+</resources>

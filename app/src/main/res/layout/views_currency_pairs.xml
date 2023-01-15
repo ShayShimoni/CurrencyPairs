@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/pair1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:elevation="2dp"
+        app:cardCornerRadius="16dp"
+        app:strokeColor="@color/black"
+        app:strokeWidth="1dp">
+
+        <TextView
+            android:id="@+id/pair1_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_gravity="top"
+            android:gravity="center"
+            tools:text="Pair" />
+
+        <TextView
+            android:id="@+id/pair1_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            tools:text="Price" />
+
+        <ProgressBar
+            android:id="@+id/pb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/pair2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardCornerRadius="16dp"
+        app:strokeColor="@color/black"
+        app:strokeWidth="1dp">
+
+        <TextView
+            android:id="@+id/pair2_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            tools:text="Pair" />
+
+        <TextView
+            android:id="@+id/pair2_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            tools:text="Price" />
+
+        <ProgressBar
+            android:id="@+id/pb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/pair3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardCornerRadius="16dp"
+        app:strokeColor="@color/black"
+        app:strokeWidth="1dp">
+
+        <TextView
+            android:id="@+id/pair3_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            tools:text="Pair" />
+
+        <TextView
+            android:id="@+id/pair3_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            tools:text="Price" />
+
+        <ProgressBar
+            android:id="@+id/pb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/pair4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardCornerRadius="16dp"
+        app:strokeColor="@color/black"
+        app:strokeWidth="1dp">
+
+        <TextView
+            android:id="@+id/pair4_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_gravity="top"
+            android:gravity="center"
+            tools:text="Pair" />
+
+        <TextView
+            android:id="@+id/pair4_price"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="32dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            tools:text="Price" />
+
+        <ProgressBar
+            android:id="@+id/pb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/pair5"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardCornerRadius="16dp"
+        app:strokeColor="@color/black"
+        app:strokeWidth="1dp">
+
+        <TextView
+            android:id="@+id/pair5_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_gravity="top"
+            android:gravity="center"
+            tools:text="Pair" />
+
+        <TextView
+            android:id="@+id/pair5_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            tools:text="Price" />
+
+        <ProgressBar
+            android:id="@+id/pb5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+</merge>
